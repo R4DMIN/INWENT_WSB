@@ -1,0 +1,32 @@
+.menu_button {
+    display: flex;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-top-style: groove;
+    border-bottom-style: groove;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.menu_button:hover {
+    filter: brightness(90%);
+}
+
+.menu_button_icon {
+    height: 50px;
+    width: 50px;
+}
+
+.menu_button_text {
+    display: flex;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 25px;
+    font-weight: bold;
+    color: #2F333E;
+    font-family: Inter;
+    font-size: 18;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,15 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.nav_open {
+    width: 200px;
+}
+
+.nav_close {
+    width: 50px;
+}

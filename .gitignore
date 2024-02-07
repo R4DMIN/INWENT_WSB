@@ -1,0 +1,5 @@
+# ignore modules
+/backend/node_modules
+
+# ignore env varible 
+/src/.env

@@ -1,0 +1,30 @@
+{
+  "name": "src",
+  "version": "0.0.1",
+  "description": "Backend for INWENT app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R4DMIN/INWENT_BACKEND.git"
+  },
+  "author": "Kamil Zieliński",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R4DMIN/INWENT_BACKEND/issues"
+  },
+  "homepage": "https://github.com/R4DMIN/INWENT_BACKEND#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.1.1",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}

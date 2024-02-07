@@ -1,0 +1,24 @@
+.DevicePage {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.DevicePage .head {
+    margin: 5px;
+    padding: 5px;
+    border: solid;
+}
+
+.DevicePage .dataField {
+    display: flex;
+}
+
+.DevicePage .column {
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: solid;
+}

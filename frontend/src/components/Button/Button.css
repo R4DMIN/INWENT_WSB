@@ -1,0 +1,24 @@
+.InwentButton1 button {
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+
+    border: solid 1px #2f333e;
+    padding: 8px 20px 8px 20px;
+    background-color: #2f333e;
+    font-weight: bold;
+    color: #ffffffea;
+    background: linear-gradient(to right, #2f333ed5 50%, #2f333e 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .2s ease-out;
+    border-radius: 3px;
+
+}
+
+.InwentButton1 button:hover {
+    background-position: left bottom;
+    color: #ffffff;
+}

@@ -1,0 +1,33 @@
+.logged_in_user {
+    height: 75px;
+    width: 200px;
+    color: #2F333E;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+}
+
+.user_name {
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 22px;
+    cursor: default;
+}
+
+.logout {
+    width: 100%;
+    height: 15px;
+    line-height: 25px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.logout button {
+    all: unset;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
